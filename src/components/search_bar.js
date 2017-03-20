@@ -14,6 +14,7 @@ onInputChange(term) {
 render() {
   return (
     <div className='search-bar'>
+      <h1>Ik's Youtube</h1>
       <input
       value={this.state.term}
       onChange={event => this.onInputChange(event.target.value)}
